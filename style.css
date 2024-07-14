@@ -1,0 +1,21 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Inter, sans-serif;
+}   
+h1,h2,h3,h4{
+    font-family: Outfit ;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+
+}
+.grid-item{
+    background-color: #48e;
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+}
